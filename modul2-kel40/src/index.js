@@ -6,15 +6,14 @@ import App from "./App";
 import CardList from "./components/CardList";
 import Gambar from "./assets/images/tes.jpg";
 import Quotes from "./components/Quotes";
-
+import data from "./assets/dummy/praktikan.json";
 const quotes = "Rapat terus, CEO kagak";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <CardList
-      name="firsta"
-      nim="21120118130059"
-      kelompok="40"
+      data={data}
       isNameBold
       image={Gambar}
     />
