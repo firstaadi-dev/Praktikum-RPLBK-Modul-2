@@ -1,4 +1,7 @@
 [
   { "nama": "Sawi", "harga": "2000", "jumlah": "5", "isBought": false },
-  { "nama": "Pisang", "harga": "5000", "jumlah": "2", "isBought": true }
+  { "nama": "Pisang", "harga": "5000", "jumlah": "2", "isBought": true },
+  { "nama": "Semangka", "harga": "13000", "jumlah": "3", "isBought": false },
+  { "nama": "Susu", "harga": "21000", "jumlah": "1", "isBought": false },
+  { "nama": "Yogurt", "harga": "25000", "jumlah": "1", "isBought": true }
 ]
