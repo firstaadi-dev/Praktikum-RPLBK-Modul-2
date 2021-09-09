@@ -14,7 +14,7 @@ export default function GroceryList(props) {
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {data.map(({ nama, harga, jumlah, isBought }) => (
             <div className= {` ${isBought ? "bg-green-700" : "bg-red-700"} p-3 shadow-lg`}>
-              <div className="flex justify-between">
+              <div className="flex justify-between text-2xl">
                 <div className="text-gray-100">
                   <p>{name}</p>
                 </div>
@@ -28,13 +28,13 @@ export default function GroceryList(props) {
                   alt="Gambar"
                 ></img>
               </div>
-              <div className="text-gray-100">
+              <div className="text-gray-100 text-xl">
                 <span>Nama Barang : {nama}</span>
               </div>
-              <div className="text-gray-100">
+              <div className="text-gray-100 text-xl">
                 <span>Harga Barang : {harga}</span>
               </div>
-              <div className="text-gray-100">
+              <div className="text-gray-100 text-xl">
                 <span>Jumlah Barang : {jumlah}</span>
               </div>
             </div>
