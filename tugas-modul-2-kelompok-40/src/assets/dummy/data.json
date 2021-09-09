@@ -1,0 +1,4 @@
+[
+  { "nama": "Sawi", "harga": "2000", "jumlah": "5", "isBought": false },
+  { "nama": "Pisang", "harga": "5000", "jumlah": "2", "isBought": true }
+]
